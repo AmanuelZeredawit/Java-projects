@@ -1,17 +1,14 @@
 
 /**
- * Write a description of CiesarEnc here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Project from coursera 
+ * This program a given String using Caesar algorithm
+ * @author (Amanuel) 
+ * @version (July 3,2021)
  */
-import java.util.*;
-import edu.duke.*;
 public class CiesarEnc{
     private int key;
     private String input;
     public CiesarEnc(String input,int key){
-        //this.key=key;
         this.input=input;
         this.key=key;
     }
@@ -35,8 +32,6 @@ public class CiesarEnc{
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
         System.out.println("enter the Message");
-        //int key=sc.nextInt();
-        //System.out.println("enter the message");
         String input= sc.nextLine();
         System.out.println("enter key");
         int key= sc.nextInt();
