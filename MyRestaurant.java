@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * GUI app to print orders of a restaurant
+ * swing library is used 
+ * It is project of an assignment given in coursera
  */
  
 //import javafx.scene.control.RadioButton;
@@ -65,7 +65,7 @@ public class MyRestaurant extends JFrame {
         r2.setBounds(220,300,60,30);
         area2=new JTextArea();
         area2.setBounds(140,330,150,100);
-        //type.se
+        
         
         Reciept= new JButton("Generate");
         Reciept.setBounds(320,100,80,40);
